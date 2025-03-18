@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+      @font-face {
+        font-family: "Arial";
+        src: url("../arial-font/Arial-Regular.woff2") format("woff2"),
+          url("../arial-font/Arial-Regular.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      .font {
+        font-family: "Arial";
+      }
+    </style>
+  </head>
+  <body>
+    <!--Header Start-->
+
+    <div class="flex flex-col h-[100px] bg-[#21472f] items-center gap-[20px]">
+      <div
+        class="flex w-full items-center flex-col bg-[#2f4f37] shadow-[0px_3px_4px_-2px]"
+      >
+        <div class="flex flex-row w-[1215px] justify-between py-[8px]">
+          <div class="flex flex-row gap-[15px]">
+            <a href="" class="flex flex-row gap-[6px]">
+              <p class="text-[12px] text-white font">Login</p>
+              <img src="images/rightarrow.png" class="w-[20px]" />
+            </a>
+
+            <a href="" class="flex flex-row gap-[6px]">
+              <p class="text-[12px] text-white font">
+                Register for a Pro Account
+              </p>
+              <img src="images/rightarrow.png" class="w-[20px]" />
+            </a>
+          </div>
+
+          <div class="flex flex-row">
+            <select class="text-[12px] text-white pr-[5px] hover:b-0">
+              <option value="0" class="flex flex-row gap-[8px] font">
+                <p>AUSTRALIA</p>
+              </option>
+              <option value="1" class="flex flex-row gap-[8px] font">
+                <p>PAKISTAN</p>
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-row items-center w-[1215px] justify-between">
+        <img src="images/logo.png" class="w-[200px] h-[40px]" />
+
+        <div class="flex flex-row gap-[36px]">
+          <select
+            class="text-[14px] leading-[24px] text-white pr-[5px] hover:b-0"
+          >
+            <option value="0" class="gap-[8px] font">
+              <p>DIY Products</p>
+            </option>
+          </select>
+          <select
+            class="text-[14px] leading-[24px] text-white pr-[5px] hover:b-0 gap-[36px]"
+          >
+            <option value="0" class="gap-[8px] font">
+              <p>Trade</p>
+            </option>
+          </select>
+          <select
+            class="text-[14px] leading-[24px] text-white pr-[5px] hover:b-0 gap-[36px]"
+          >
+            <option value="0" class="gap-[8px] font">
+              <p>Where to Buy</p>
+            </option>
+          </select>
+          <select
+            class="text-[14px] leading-[24px] text-white pr-[5px] hover:b-0 gap-[36px]"
+          >
+            <option value="0" class="gap-[8px] font">
+              <p>Blog</p>
+            </option>
+          </select>
+          <select
+            class="text-[14px] leading-[24px] text-white pr-[5px] hover:b-0 gap-[36px]"
+          >
+            <option value="0" class="gap-[8px] font">
+              <p>Gallery</p>
+            </option>
+          </select>
+          <select
+            class="text-[14px] leading-[24px] text-white pr-[5px] hover:b-0 gap-[36px]"
+          >
+            <option value="0" class="gap-[8px] font">
+              <p>Contact</p>
+            </option>
+          </select>
+        </div>
+
+        <button
+          class="flex justify-center items-center bg-[#DA7924] py-[11px] px-[27px] rounded-[10px]"
+        >
+          <a>
+            <p class="text-[14px] bold leading-[22px] text-white bold">
+              Get a Price List
+            </p>
+          </a>
+        </button>
+      </div>
+    </div>
+    <!--Header End-->
+
+    <!--Hero Section Start-->
+
+    <div
+      class="flex flex-row h-[693px] bg-[#21472f] justify-center gap-[93px] items-end"
+    >
+      <div class="flex flex-col w-[608px] self-center">
+        <div
+          class="flex flex-row w-[327px] h-[37px] border-[1px] border-[#6a6666] rounded-[100px] items-center justify-center"
+        >
+          <p class="text-[14px] leading-[22px] spacing-[3px] text-[#CCCCCC]">
+            STYLISH • DURABLE • EASY-BUILD
+          </p>
+        </div>
+
+        <h1 class="text-[50px] leading-[60px] text-white semibold pt-[20px]">
+          Steel garden edging, raised garden beds & planter boxes
+        </h1>
+        <p class="text-[16px] leading-[24px] text-white pt-[20px]">
+          Designed for DIY home gardeners. Loved by landscape professionals.
+        </p>
+
+        <button>
+          <a
+            href=""
+            class="flex flex-row w-[460px] h-[66px] rounded-[10px] bg-[#DA7924] items-center justify-center gap-[69px] mt-[40px]"
+          >
+            <div class="flex flex-col items-start">
+              <p class="text-[white] text-[16px] leading-[24px] bold">
+                DIY Gardeners
+              </p>
+              <p
+                class="text-[#CCCCCC] text-[14px] leading-[24px] font pt-[4px]"
+              >
+                Explore DIY-friendly product info & shopping options
+              </p>
+            </div>
+
+            <img src="images/arrowleftwh.png" class="w-[24px] h-[24px]" />
+          </a>
+        </button>
+
+        <button>
+          <a
+            href=""
+            class="flex flex-row w-[460px] h-[66px] rounded-[10px] bg-white items-center justify-center gap-[51px] mt-[40px]"
+          >
+            <div class="flex flex-col items-start">
+              <p class="text-black-900 text-[16px] leading-[24px] bold">
+                Landscapers
+              </p>
+              <p
+                class="text-[#333333] text-[14px] leading-[24px] font pt-[4px]"
+              >
+                Learn more about a FREE Pro Account + Trade Pricing
+              </p>
+            </div>
+
+            <img src="images/arrowleftor.png" class="w-[24px] h-[24px]" />
+          </a>
+        </button>
+      </div>
+
+      <div
+        class="flex w-[628px] h-[665px] bg-[url('images/hero.png')] bg-cover bg-center items-end justify-end"
+      >
+        <button
+          class="flex flex-row justify-center items-center bg-[#1B493269] rounded-[100px] py-[21px] px-[29px] mr-[40px] mb-[40px] border-[1px] border-[#6a6666]"
+        >
+          <a class="flex flex-row gap-[10px]">
+            <img src="images/PlayCircle.png" class="w-[32px] h-[32px]" />
+            <p class="bold text-[20px] leading-[28px] text-white font">
+              Watch video
+            </p>
+          </a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
