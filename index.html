@@ -29,14 +29,16 @@
       <div
         class="flex w-full items-center flex-col bg-[#2f4f37] shadow-[0px_3px_4px_-2px]"
       >
-        <div class="flex flex-row w-[1215px] justify-between py-[8px]">
+        <div
+          class="flex flex-row w-full md:w-[1215px] justify-between py-[8px] md:p-0 p-[16px]"
+        >
           <div class="flex flex-row gap-[15px]">
-            <a href="" class="flex flex-row gap-[6px]">
+            <a href="" class="flex flex-row gap-[6px] items-center">
               <p class="text-[12px] text-white font">Login</p>
               <img src="images/rightarrow.png" class="w-[20px]" />
             </a>
 
-            <a href="" class="flex flex-row gap-[6px]">
+            <a href="" class="flex flex-row gap-[6px] items-center">
               <p class="text-[12px] text-white font">
                 Register for a Pro Account
               </p>
@@ -44,7 +46,7 @@
             </a>
           </div>
 
-          <div class="flex flex-row">
+          <div class="flex flex-row hidden md:block">
             <select class="text-[12px] text-white pr-[5px] hover:b-0">
               <option value="0" class="flex flex-row gap-[8px] font">
                 <p>AUSTRALIA</p>
@@ -57,40 +59,45 @@
         </div>
       </div>
 
-      <div class="flex flex-row items-center w-[1215px] justify-between">
-        <img src="images/logo.png" class="w-[200px] h-[40px]" />
-
-        <div class="flex flex-row gap-[36px]">
+      <div
+        class="flex flex-row items-center w-full md:w-[1215px] justify-between md:p-0 px-[16px] py-[6px] md:bg-transparent bg-white/20"
+      >
+        <img
+          src="images/logo.png"
+          class="md:w-[200px] md:h-[40px] w-[120px] h-[24px]"
+        />
+        <img src="images/menu.png" class="w-[40px] h-[40px] md:hidden" />
+        <div class="flex flex-row gap-[36px] md:block hidden">
           <select
-            class="text-[14px] leading-[24px] text-white pr-[5px] hover:b-0"
+            class="text-[14px] leading-[24px] mr-[36px] text-white pr-[5px] hover:b-0"
           >
             <option value="0" class="gap-[8px] font">
               <p>DIY Products</p>
             </option>
           </select>
           <select
-            class="text-[14px] leading-[24px] text-white pr-[5px] hover:b-0 gap-[36px]"
+            class="text-[14px] leading-[24px] text-white pr-[5px] mr-[36px] hover:b-0 gap-[36px]"
           >
             <option value="0" class="gap-[8px] font">
               <p>Trade</p>
             </option>
           </select>
           <select
-            class="text-[14px] leading-[24px] text-white pr-[5px] hover:b-0 gap-[36px]"
+            class="text-[14px] leading-[24px] text-white pr-[5px] mr-[36px] hover:b-0 gap-[36px]"
           >
             <option value="0" class="gap-[8px] font">
               <p>Where to Buy</p>
             </option>
           </select>
           <select
-            class="text-[14px] leading-[24px] text-white pr-[5px] hover:b-0 gap-[36px]"
+            class="text-[14px] leading-[24px] text-white pr-[5px] mr-[36px] hover:b-0 gap-[36px]"
           >
             <option value="0" class="gap-[8px] font">
               <p>Blog</p>
             </option>
           </select>
           <select
-            class="text-[14px] leading-[24px] text-white pr-[5px] hover:b-0 gap-[36px]"
+            class="text-[14px] leading-[24px] text-white pr-[5px] mr-[36px] hover:b-0 gap-[36px]"
           >
             <option value="0" class="gap-[8px] font">
               <p>Gallery</p>
@@ -106,7 +113,7 @@
         </div>
 
         <button
-          class="flex justify-center items-center bg-[#DA7924] py-[11px] px-[27px] rounded-[10px]"
+          class="flex justify-center items-center bg-[#DA7924] py-[11px] px-[27px] rounded-[10px] md:block hidden"
         >
           <a>
             <p class="text-[14px] bold leading-[22px] text-white bold">
@@ -121,35 +128,43 @@
     <!--Hero Section Start-->
 
     <div
-      class="flex flex-row h-[693px] bg-[#21472f] justify-center gap-[93px] items-end"
+      class="flex md:flex-row flex-col md:p-0 px-[16px] md:h-[693px] bg-[#21472f] justify-center gap-[21px] md:gap-[93px] items-end"
     >
-      <div class="flex flex-col w-[608px] self-center">
+      <div class="flex flex-col md:w-[608px] self-center pt-[46px]">
         <div
-          class="flex flex-row w-[327px] h-[37px] border-[1px] border-[#6a6666] rounded-[100px] items-center justify-center"
+          class="flex flex-row md:w-[327px] md:h-[37px] w-[260px] h-[32px] border-[1px] border-[#6a6666] rounded-[100px] items-center justify-center"
         >
-          <p class="text-[14px] leading-[22px] spacing-[3px] text-[#CCCCCC]">
+          <p
+            class="md:text-[14px] md:leading-[22px] text-[12px] leading-[20px] spacing-[3px] text-[#CCCCCC]"
+          >
             STYLISH • DURABLE • EASY-BUILD
           </p>
         </div>
 
-        <h1 class="text-[50px] leading-[60px] text-white semibold pt-[20px]">
+        <h1
+          class="md:text-[50px] md:leading-[60px] text-[32px] leading-[42px] text-white semibold md:pt-[20px] pt-[15px]"
+        >
           Steel garden edging, raised garden beds & planter boxes
         </h1>
-        <p class="text-[16px] leading-[24px] text-white pt-[20px]">
+        <p
+          class="md:text-[16px] md:leading-[24px] text-[14px] leading-[22px] text-white pt-[20px]"
+        >
           Designed for DIY home gardeners. Loved by landscape professionals.
         </p>
 
         <button>
           <a
             href=""
-            class="flex flex-row w-[460px] h-[66px] rounded-[10px] bg-[#DA7924] items-center justify-center gap-[69px] mt-[40px]"
+            class="flex flex-row md:w-[460px] md:h-[66px] rounded-[10px] bg-[#DA7924] md:p-0 py-[14px] md:items-center justify-center md:gap-[69px] mt-[34px] md:mt-[40px]"
           >
             <div class="flex flex-col items-start">
-              <p class="text-[white] text-[16px] leading-[24px] bold">
+              <p
+                class="text-[white] md:text-[16px] md:leading-[24px] text-[14px] leading-[20px] bold"
+              >
                 DIY Gardeners
               </p>
               <p
-                class="text-[#CCCCCC] text-[14px] leading-[24px] font pt-[4px]"
+                class="text-[#CCCCCC] md:text-[14px] md:leading-[24px] text-[12px] leading-[20px] font pt-[4px]"
               >
                 Explore DIY-friendly product info & shopping options
               </p>
@@ -162,14 +177,16 @@
         <button>
           <a
             href=""
-            class="flex flex-row w-[460px] h-[66px] rounded-[10px] bg-white items-center justify-center gap-[51px] mt-[40px]"
+            class="flex flex-row md:w-[460px] md:h-[66px] rounded-[10px] md:py-0 py-[14px] bg-white md:items-center justify-center md:gap-[51px] mt-[20px] md:mt-[40px]"
           >
             <div class="flex flex-col items-start">
-              <p class="text-black-900 text-[16px] leading-[24px] bold">
+              <p
+                class="md:text-[16px] md:leading-[24px] text-[14px] leading-[20px] bold"
+              >
                 Landscapers
               </p>
               <p
-                class="text-[#333333] text-[14px] leading-[24px] font pt-[4px]"
+                class="text-[#333333] md:text-[14px] md:leading-[24px] text-[12px] leading-[20px] font pt-[4px]"
               >
                 Learn more about a FREE Pro Account + Trade Pricing
               </p>
@@ -181,10 +198,10 @@
       </div>
 
       <div
-        class="flex w-[628px] h-[665px] bg-[url('images/hero.png')] bg-cover bg-center items-end justify-end"
+        class="flex md:w-[628px] md:h-[665px] w-full h-[274px] md:bg-[url('images/hero.png')] bg-[url('images/hero2.png')] bg-cover bg-center items-end justify-center md:justify-end"
       >
         <button
-          class="flex flex-row justify-center items-center bg-[#1B493269] rounded-[100px] py-[21px] px-[29px] mr-[40px] mb-[40px] border-[1px] border-[#6a6666]"
+          class="flex flex-row justify-center items-center bg-[#1B493269] rounded-[100px] py-[21px] px-[29px] md:mr-[40px] mb-[40px] border-[1px] border-[#6a6666]"
         >
           <a class="flex flex-row gap-[10px]">
             <img src="images/PlayCircle.png" class="w-[32px] h-[32px]" />
@@ -206,28 +223,28 @@
         </p>
       </div>
 
-      <div class="flex flex-row gap-[4px]">
+      <div class="md:flex hidden flex-row gap-[4px]">
         <img src="images/star.png" class="w-[108px] h-[20px]" />
         <p class="text-black-900 text-[14px] leading-[22px] italic">
           “The team love using it”
         </p>
       </div>
 
-      <div class="flex flex-row gap-[4px]">
+      <div class="md:flex hidden flex-row gap-[4px]">
         <img src="images/star.png" class="w-[108px] h-[20px]" />
         <p class="text-black-900 text-[14px] leading-[22px] italic">
           “Highly recommended”
         </p>
       </div>
 
-      <div class="flex flex-row gap-[4px]">
+      <div class="md:flex hidden flex-row gap-[4px]">
         <img src="images/star.png" class="w-[108px] h-[20px]" />
         <p class="text-black-900 text-[14px] leading-[22px] italic">
           “Great addition to our home”
         </p>
       </div>
 
-      <div class="flex flex-row gap-[4px]">
+      <div class="md:flex hidden flex-row gap-[4px]">
         <img src="images/star.png" class="w-[108px] h-[20px]" />
         <p class="text-black-900 text-[14px] leading-[22px] italic">
           “End result look great”
@@ -238,19 +255,25 @@
 
     <!--choose Section Start-->
 
-    <div class="flex flex-col w-full items-center h-[828px] justify-center">
-      <div class="flex gap-[125px] flex-row">
-        <div class="flex flex-col w-[598px]">
-          <h1 class="text-[40px] leading-[50px] text-black-900 semibold">
+    <div class="flex flex-col w-full items-center md:h-[828px] justify-center">
+      <div
+        class="flex md:gap-[125px] gap-[20px] px-[16px] md:p-0 md:flex-row flex-col w-full md:w-auto"
+      >
+        <div class="flex flex-col md:w-[598px]">
+          <h1
+            class="md:text-[40px] md:leading-[50px] text-[26px] leading-[34px] text-black-900 semibold"
+          >
             Why Choose Straightcurve?
           </h1>
           <p
-            class="text-[20px] leading-[28px] text-black-900 font w-[537px] pt-[20px]"
+            class="md:text-[20px] md:leading-[28px] text-[16px] leading-[24px] text-black-900 font md:w-[537px] pt-[20px]"
           >
             Simply, it’s Australia’s only high-end range of modular steel garden
             edging that’s:
           </p>
-          <p class="text-[16px] leading-[24px] text-[#666666] font pt-[30px]">
+          <p
+            class="md:text-[16px] md:leading-[24px] text-[14px] leading-[22px] text-[#666666] font pt-[30px]"
+          >
             Specifically designed for DIY Gardeners and Landscapers around the
             world. Designed with simple installation in mind, including;
             pre-drilled & prepared for assembly, no training or experience
@@ -262,34 +285,44 @@
         </div>
 
         <div class="flex flex-col w-[377px]">
-          <h1 class="text-[24px] leading-[32px] text-black-900 semibold">
+          <h1
+            class="md:text-[24px] md:leading-[32px] text-[18px] leading-[24px] text-black-900 semibold"
+          >
             Try them on your next garden project and you’ll find they are:
           </h1>
 
           <div class="flex flex-row gap-[6px] pt-[30px]">
             <img src="images/tick.png" class="w-[20px] h-[20px]" />
-            <p class="text-[16px] leading-[24px] text-[#666666] font">
+            <p
+              class="md:text-[16px] md:leading-[24px] text-[14px] leading-[22px] text-[#666666] font"
+            >
               Extremely high-quality & hard wearing
             </p>
           </div>
 
           <div class="flex flex-row gap-[6px] pt-[20px]">
             <img src="images/tick.png" class="w-[20px] h-[20px]" />
-            <p class="text-[16px] leading-[24px] text-[#666666] font">
+            <p
+              class="md:text-[16px] md:leading-[24px] text-[14px] leading-[22px] text-[#666666] font"
+            >
               Simple to install & quick to connect
             </p>
           </div>
 
           <div class="flex flex-row gap-[6px] pt-[20px]">
             <img src="images/tick.png" class="w-[20px] h-[20px]" />
-            <p class="text-[16px] leading-[24px] text-[#666666] font">
+            <p
+              class="md:text-[16px] md:leading-[24px] text-[14px] leading-[22px] text-[#666666] font"
+            >
               Aesthetically pleasing & easy to shape by hand
             </p>
           </div>
 
           <div class="flex flex-row gap-[6px] pt-[20px]">
             <img src="images/tick.png" class="w-[20px] h-[20px]" />
-            <p class="text-[16px] leading-[24px] text-[#666666] font">
+            <p
+              class="md:text-[16px] md:leading-[24px] text-[14px] leading-[22px] text-[#666666] font"
+            >
               Affordably priced & ready when you are
             </p>
           </div>
@@ -307,7 +340,7 @@
       </div>
 
       <h1
-        class="text-[24px] leading-[32px] text-black-900 semibold w-[1100px] pt-[40px]"
+        class="text-[24px] leading-[32px] text-black-900 semibold w-full md:w-[1100px] pt-[40px] md:px-0 px-[16px]"
       >
         A Glimpse of our range:
       </h1>
@@ -324,7 +357,7 @@
         </div>
 
         <div
-          class="flex w-[289px] h-[220px] bg-[url('images/choose2.png')] bg-cover bg-center items-end justify-center"
+          class="md:flex hidden w-[289px] h-[220px] bg-[url('images/choose2.png')] bg-cover bg-center items-end justify-center"
         >
           <h2
             class="text-[18px] leading-[26px] semibold text-black-900 pb-[22px]"
@@ -333,7 +366,7 @@
           </h2>
         </div>
         <div
-          class="flex w-[289px] h-[220px] bg-[url('images/chosse.png')] bg-cover bg-center items-end justify-center"
+          class="md:flex hidden w-[289px] h-[220px] bg-[url('images/chosse.png')] bg-cover bg-center items-end justify-center"
         >
           <h2
             class="text-[18px] leading-[26px] semibold text-black-900 pb-[22px]"
@@ -343,7 +376,7 @@
         </div>
 
         <div
-          class="flex w-[289px] h-[220px] bg-[url('images/choose3.png')] bg-cover bg-center items-end justify-center"
+          class="md:flex hidden w-[289px] h-[220px] bg-[url('images/choose3.png')] bg-cover bg-center items-end justify-center"
         >
           <h2
             class="text-[18px] leading-[26px] semibold text-black-900 pb-[22px]"
@@ -357,8 +390,12 @@
 
     <!--Disover Section Start-->
 
-    <div class="flex flex-col h-[787px] items-center justify-center">
-      <h1 class="text-[40px] leading-[50px] text-black-900">
+    <div
+      class="flex flex-col md:h-[787px] items-center justify-center pt-[40px] md:px-0 px-[16px]"
+    >
+      <h1
+        class="md:text-[40px] md:leading-[50px] text-[26px] leading-[34px] text-center text-black-900"
+      >
         Discover more features & benefits
       </h1>
 
@@ -366,20 +403,29 @@
         Choose the tile that's most relevant to you
       </p>
 
-      <div class="flex flex-row gap-[20px] pt-[50px]">
+      <div
+        class="flex md:flex-row flex-col gap-[20px] pt-[50px] w-full md:w-auto"
+      >
         <div class="flex flex-col">
-          <img src="images/dis.png" class="w-[598px] h-[342px]" />
+          <img
+            src="images/dis.png"
+            class="md:w-[598px] md:h-[342px] w-full h-[198px]"
+          />
 
           <a
             href=""
-            class="flex flex-row w-[598px] h-[130px] rounded-[10px] bg-white items-center justify-between gap-[51px] border border-[#FFFFFF] shadow-sm"
+            class="flex flex-row md:w-[598px] md:h-[130px] h-[100px] rounded-[10px] bg-white items-center justify-between md:gap-[51px] border border-[#FFFFFF] shadow-sm"
           >
-            <div class="flex flex-col items-start pl-[30px]">
-              <p class="text-black-900 text-[30px] leading-[38px] bold">
+            <div
+              class="flex flex-col items-start md:pl-[30px] pl-[16px] w-[252px] md:w-auto"
+            >
+              <p
+                class="text-black-900 md:text-[30px] md:leading-[38px] text-[18px] leading-[24px] bold"
+              >
                 For Professional Landscapers
               </p>
               <p
-                class="text-[#333333] text-[14px] leading-[24px] font pt-[8px]"
+                class="text-[#333333] md:text-[14px] md:leading-[24px] text-[12px] leading-[20px] font pt-[8px]"
               >
                 Learn more about a FREE Pro Account + Trade Pricing
               </p>
@@ -387,24 +433,31 @@
 
             <img
               src="images/arrowbck.png"
-              class="w-[48px] h-[48px] mr-[48px]"
+              class="md:w-[48px] w-[27px] h-[27px] md:h-[48px] md:mr-[48px] md:p-0 mr-[19px]"
             />
           </a>
         </div>
 
         <div class="flex flex-col">
-          <img src="images/dis2.png" class="w-[598px] h-[342px]" />
+          <img
+            src="images/dis2.png"
+            class="md:w-[598px] md:h-[342px] w-full h-[198px]"
+          />
 
           <a
             href=""
-            class="flex flex-row w-[598px] h-[130px] rounded-[10px] bg-white items-center justify-between gap-[51px] border border-[#FFFFFF] shadow-sm"
+            class="flex flex-row md:w-[598px] md:h-[130px] h-[100px] rounded-[10px] bg-white items-center justify-between md:gap-[51px] border border-[#FFFFFF] shadow-sm"
           >
-            <div class="flex flex-col items-start pl-[30px]">
-              <p class="text-black-900 text-[30px] leading-[38px] bold">
+            <div
+              class="flex flex-col items-start md:pl-[30px] pl-[16px] w-[252px] md:w-auto"
+            >
+              <p
+                class="text-black-900 md:text-[30px] md:leading-[38px] text-[18px] leading-[24px] bold"
+              >
                 For Home Gardeners
               </p>
               <p
-                class="text-[#333333] text-[14px] leading-[24px] font pt-[8px]"
+                class="text-[#333333] md:text-[14px] md:leading-[24px] text-[12px] leading-[20px] font pt-[8px]"
               >
                 Learn more about a FREE Pro Account + Trade Pricing
               </p>
@@ -412,7 +465,7 @@
 
             <img
               src="images/arrowbck.png"
-              class="w-[48px] h-[48px] mr-[48px]"
+              class="md:w-[48px] w-[27px] h-[27px] md:h-[48px] md:mr-[48px] md:p-0 mr-[19px]"
             />
           </a>
         </div>
@@ -420,66 +473,83 @@
     </div>
     <!--Disover Section End-->
 
-    <div class="flex flex-col items-center pt-[90px] pb-[77px]">
-      <h1 class="text-[40px] leading-[50px] text-black-900">
-        Discover more features & benefits
+    <div
+      class="flex flex-col items-center pt-[90px] pb-[77px] md:px-0 px-[16px]"
+    >
+      <h1
+        class="md:text-[40px] text-[26px] md:leading-[50px] leading-[34px] text-black-900"
+      >
+        Our full range of products
       </h1>
 
       <p
-        class="text-[16px] w-[542px] text-center leading-[24px] text-[#666666] font pt-[15px]"
+        class="md:text-[16px] text-[14px] leading-[22px] md:w-[542px] text-center md:leading-[24px] text-[#666666] font pt-[15px]"
       >
         We manufacture a full range of garden edging products that are simple to
         install, attractive, extremely hard wearing and affordably priced.
       </p>
 
-      <div class="flex flex-row pt-[50px] gap-[20px]">
+      <div class="flex md:flex-row flex-col pt-[50px] gap-[20px]">
         <div class="flex flex-col">
-          <img src="images/p1.png" class="w-[392px] h-[220px]" />
+          <img
+            src="images/p1.png"
+            class="md:w-[392px] w-full h-[200px] md:h-[220px]"
+          />
           <div
             class="border border-[#FFFFFF] shadow-sm pb-[20px] rounded-bl-[10px] rounded-br-[10px]"
           >
             <h1
-              class="text-[30px] leading-[38px] semibold text-black-900 pl-[15px] pt-[15px]"
+              class="md:text-[30px] md:leading-[38px] text-[20px] leading-[30px] semibold text-black-900 pl-[15px] pt-[15px]"
             >
               Garden Edging
             </h1>
 
             <div class="flex flex-row gap-[6px] pt-[20px] pt-[20px] pl-[15px]">
               <img src="images/tick.png" class="w-[20px] h-[20px]" />
-              <p class="text-[14px] leading-[24px] text-[#666666] font">
+              <p
+                class="text-[14px] md:leading-[24px] leading-[22px] text-[#666666] font"
+              >
                 Lawn barriers
               </p>
             </div>
 
             <div class="flex flex-row gap-[6px] pt-[20px] pt-[15px] pl-[15px]">
               <img src="images/tick.png" class="w-[20px] h-[20px]" />
-              <p class="text-[14px] leading-[24px] text-[#666666] font">
+              <p
+                class="text-[14px] md:leading-[24px] leading-[22px] text-[#666666] font"
+              >
                 Pathway edges
               </p>
             </div>
 
             <div class="flex flex-row gap-[6px] pt-[20px] pt-[15px] pl-[15px]">
               <img src="images/tick.png" class="w-[20px] h-[20px]" />
-              <p class="text-[14px] leading-[24px] text-[#666666] font">
+              <p
+                class="text-[14px] md:leading-[24px] leading-[22px] text-[#666666] font"
+              >
                 Separate material like stone and mulch
               </p>
             </div>
 
             <button
-              class="flex justify-center items-center bg-[#DA7924] py-[13px] px-[27px] rounded-[10px] w-[362px] mx-[15px] mt-[24px]"
+              class="flex justify-center items-center bg-[#DA7924] py-[13px] px-[27px] rounded-[10px] w-[90%] mx-auto md:w-[362px] md:mx-[15px] mt-[24px]"
             >
               <a>
-                <p class="text-[16px] bold leading-[24px] text-white">
+                <p
+                  class="md:text-[16px] text-[14px] bold leading-[24px] md:leading-[22px] text-white"
+                >
                   Products for DIY
                 </p>
               </a>
             </button>
 
             <button
-              class="flex justify-center items-center border-[#DA7924] border-[1px] py-[13px] px-[27px] rounded-[10px] w-[362px] mx-[15px] mt-[10px]"
+              class="flex justify-center items-center border-[#DA7924] border-[1px] py-[13px] px-[27px] rounded-[10px] w-[90%] mx-auto md:w-[362px] md:mx-[15px] mt-[10px]"
             >
               <a>
-                <p class="text-[16px] bold leading-[24px] text-[#DA7924]">
+                <p
+                  class="md:text-[16px] text-[14px] bold leading-[24px] md:leading-[22px] text-[#DA7924]"
+                >
                   Products for DIY
                 </p>
               </a>
@@ -488,39 +558,48 @@
         </div>
 
         <div class="flex flex-col">
-          <img src="images/p2.png" class="w-[392px] h-[220px]" />
+          <img
+            src="images/p2.png"
+            class="md:w-[392px] w-full h-[200px] md:h-[220px]"
+          />
           <div
             class="border border-[#FFFFFF] shadow-sm pb-[20px] rounded-bl-[10px] rounded-br-[10px]"
           >
             <h1
-              class="text-[30px] leading-[38px] semibold text-black-900 pl-[15px] pt-[15px]"
+              class="md:text-[30px] md:leading-[38px] text-[20px] leading-[30px] semibold text-black-900 pl-[15px] pt-[15px]"
             >
               Raised Garden Beds
             </h1>
 
             <div class="flex flex-row gap-[6px] pt-[20px] pt-[20px] pl-[15px]">
               <img src="images/tick.png" class="w-[20px] h-[20px]" />
-              <p class="text-[14px] leading-[24px] text-[#666666] font">
+              <p
+                class="text-[14px] md:leading-[24px] leading-[22px] text-[#666666] font"
+              >
                 Raised garden beds
               </p>
             </div>
 
             <div class="flex flex-row gap-[6px] pt-[20px] pt-[15px] pl-[15px]">
               <img src="images/tick.png" class="w-[20px] h-[20px]" />
-              <p class="text-[14px] leading-[24px] text-[#666666] font">
+              <p
+                class="text-[14px] md:leading-[24px] leading-[22px] text-[#666666] font"
+              >
                 Steps and multi levels
               </p>
             </div>
 
             <div class="flex flex-row gap-[6px] pt-[20px] pt-[15px] pl-[15px]">
               <img src="images/tick.png" class="w-[20px] h-[20px]" />
-              <p class="text-[14px] leading-[24px] text-[#666666] font">
+              <p
+                class="text-[14px] md:leading-[24px] leading-[22px] text-[#666666] font"
+              >
                 Retaining walls
               </p>
             </div>
 
             <button
-              class="flex justify-center items-center bg-[#DA7924] py-[13px] px-[27px] rounded-[10px] w-[362px] mx-[15px] mt-[24px]"
+              class="flex justify-center items-center bg-[#DA7924] py-[13px] px-[27px] rounded-[10px] w-[90%] md:w-[362px] mx-auto md:mx-[15px] mt-[24px]"
             >
               <a>
                 <p class="text-[16px] bold leading-[24px] text-white">
@@ -530,7 +609,7 @@
             </button>
 
             <button
-              class="flex justify-center items-center border-[#DA7924] border-[1px] py-[13px] px-[27px] rounded-[10px] w-[362px] mx-[15px] mt-[10px]"
+              class="flex justify-center items-center border-[#DA7924] border-[1px] py-[13px] px-[27px] rounded-[10px] md:w-[362px] w-[90%] mx-auto md:mx-[15px] mt-[10px]"
             >
               <a>
                 <p class="text-[16px] bold leading-[24px] text-[#DA7924]">
@@ -542,39 +621,48 @@
         </div>
 
         <div class="flex flex-col">
-          <img src="images/p3.png" class="w-[392px] h-[220px]" />
+          <img
+            src="images/p3.png"
+            class="md:w-[392px] w-full h-[200px] md:h-[220px]"
+          />
           <div
             class="border border-[#FFFFFF] shadow-sm pb-[20px] rounded-bl-[10px] rounded-br-[10px]"
           >
             <h1
-              class="text-[30px] leading-[38px] semibold text-black-900 pl-[15px] pt-[15px]"
+              class="md:text-[30px] md:leading-[38px] text-[20px] leading-[30px] semibold text-black-900 pl-[15px] pt-[15px]"
             >
               Hard Surface planters
             </h1>
 
             <div class="flex flex-row gap-[6px] pt-[20px] pt-[20px] pl-[15px]">
               <img src="images/tick.png" class="w-[20px] h-[20px]" />
-              <p class="text-[14px] leading-[24px] text-[#666666] font">
+              <p
+                class="text-[14px] md:leading-[24px] leading-[22px] text-[#666666] font"
+              >
                 Hard Surface planters
               </p>
             </div>
 
             <div class="flex flex-row gap-[6px] pt-[20px] pt-[15px] pl-[15px]">
               <img src="images/tick.png" class="w-[20px] h-[20px]" />
-              <p class="text-[14px] leading-[24px] text-[#666666] font">
+              <p
+                class="text-[14px] md:leading-[24px] leading-[22px] text-[#666666] font"
+              >
                 Raised garden beds
               </p>
             </div>
 
             <div class="flex flex-row gap-[6px] pt-[20px] pt-[15px] pl-[15px]">
               <img src="images/tick.png" class="w-[20px] h-[20px]" />
-              <p class="text-[14px] leading-[24px] text-[#666666] font">
+              <p
+                class="text-[14px] md:leading-[24px] leading-[22px] text-[#666666] font"
+              >
                 Seat and table bases
               </p>
             </div>
 
             <button
-              class="flex justify-center items-center bg-[#DA7924] py-[13px] px-[27px] rounded-[10px] w-[362px] mx-[15px] mt-[24px]"
+              class="flex justify-center items-center bg-[#DA7924] py-[13px] px-[27px] rounded-[10px] md:w-[362px] w-[90%] mx-auto md:mx-[15px] mt-[24px]"
             >
               <a>
                 <p class="text-[16px] bold leading-[24px] text-white">
@@ -584,7 +672,7 @@
             </button>
 
             <button
-              class="flex justify-center items-center border-[#DA7924] border-[1px] py-[13px] px-[27px] rounded-[10px] w-[362px] mx-[15px] mt-[10px]"
+              class="flex justify-center items-center border-[#DA7924] border-[1px] py-[13px] px-[27px] rounded-[10px] md:w-[362px] w-[90%] mx-auto md:mx-[15px] mt-[10px]"
             >
               <a>
                 <p class="text-[16px] bold leading-[24px] text-[#DA7924]">
@@ -600,12 +688,16 @@
 
     <!--People Section Start-->
 
-    <div class="flex flex-col bg-[#1b4932] pt-[93px] pb-[67px] items-center">
-      <h1 class="text-[40px] leading-[50px] semibold text-white">
-        Discover more features &amp; benefits
+    <div
+      class="flex flex-col bg-[#1b4932] pt-[93px] pb-[67px] items-center md:px-0 px-[16px]"
+    >
+      <h1
+        class="md:text-[40px] md:leading-[50px] text-[26px] leading-[34px] text-center semibold text-white"
+      >
+        What people are saying about Straightcurve
       </h1>
       <p
-        class="text-[16px] w-[871px] text-center leading-[24px] text-[#FFFFFFCC] font pt-[15px]"
+        class="md:text-[16px] md:w-[871px] text-center md:leading-[24px] text-[14px] leading-[24px] text-[#FFFFFFCC] font pt-[15px]"
       >
         Landscapers who switch to Straightcurve edging tell us “It’s a joy to
         work with”, “It’s quick & easy to use”, “It doesn’t need special skills
@@ -615,21 +707,31 @@
       </p>
 
       <div
-        class="flex flex-row bg-white items-center mt-[40px] rounded-[10px] gap-[30px] pr-[16px] pl-[40px] py-[15px]"
+        class="flex flex-row bg-white items-center mt-[40px] rounded-[10px] gap-[30px] md:pr-[16px] px-[15px] md:pl-[40px] py-[15px]"
       >
         <div class="flex flex-col">
-          <img src="images/comma.png" class="w-[41px] h-[34px]" />
+          <img src="images/p22.png" class="w-full h-[230px] block md:hidden" />
+          <img
+            src="images/comma.png"
+            class="md:w-[41px] md:h-[34px] w-[30px] h-[26px] mt-[20px] md:m-0"
+          />
 
           <p
-            class="text-[16px] leading-[24px] text-black italic pt-[30px] bold w-[369px]"
+            class="md:text-[16px] md:leading-[24px] text-[14px] leading-[22px] text-black italic pt-[10px] md:pt-[30px] bold md:w-[369px] pr-[19px] md:pr-0"
           >
             The thing I love most about the product is the time I save onsite on
             installation, I can be much more competitive on price.
           </p>
-          <div class="flex flex-row gap-[136px] pt-[129px]">
+          <div class="flex flex-row gap-[136px] pt-[30px] md:pt-[129px]">
             <div class="flex flex-col gap-[4px] justify-center">
-              <h2 class="text-[24px] font-semibold text-black">Alessio</h2>
-              <p class="text-[14px] leading-[24px] text-[#00000099]">
+              <h2
+                class="md:text-[24px] text-[14px] md:leading-[32px] leading-[22px] font-semibold text-black"
+              >
+                Alessio
+              </h2>
+              <p
+                class="md:text-[14px] text-[12px] md:leading-[24px] leading-[20px] text-[#00000099]"
+              >
                 Alessio’s Garden
               </p>
             </div>
@@ -638,7 +740,7 @@
           </div>
         </div>
 
-        <img src="images/man.png" class="w-[292px] h-[370px]" />
+        <img src="images/man.png" class="w-[292px] h-[370px] md:block hidden" />
       </div>
 
       <button
@@ -654,18 +756,22 @@
     <!--People Section End-->
 
     <!--Reason Section Start-->
-    <div class="class flex flex-col items-center py-[90px] bg-[#FFF6F5]">
-      <h1 class="text-[40px] leading-[50px] text-black-900">
+    <div
+      class="class flex flex-col items-center py-[90px] bg-[#FFF6F5] md:px-0 px-[16px]"
+    >
+      <h1
+        class="md:text-[40px] md:leading-[50px] text-[26px] leading-[34px] text-black-900 text-center"
+      >
         Practical reasons to love Straightcurve®
       </h1>
       <p
-        class="text-[16px] text-center leading-[24px] text-[#666666] font pt-[15px]"
+        class="md:text-[16px] text-[14px] text-center md:leading-[24px] leading-[22px] text-[#666666] font pt-[15px]"
       >
-        Lorem ipsum dolor sit amet conse dolor sit amet co ctetur.
+        Lorem ipsum dolor sit amet conse doloctetur.
       </p>
-      <div class="flex flex-row gap-[20px] pt-[50px]">
+      <div class="flex flex-row gap-[20px] pt-[50px] w-full md:w-auto">
         <div
-          class="flex flex-col p-[15px] rounded-[10px] shadow-[0_0px_5px_#666666]"
+          class="flex flex-col p-[15px] rounded-[10px] w-full md:w-auto shadow-[0_0px_5px_#666666]"
         >
           <img src="images/targ.png" class="w-[60px] h-[60px]" />
 
@@ -683,7 +789,7 @@
           </p>
         </div>
         <div
-          class="flex flex-col p-[15px] rounded-[10px] shadow-[0_0px_5px_#666666]"
+          class="md:flex hidden flex-col p-[15px] rounded-[10px] shadow-[0_0px_5px_#666666]"
         >
           <img src="images/targ1.png" class="w-[60px] h-[60px]" />
 
@@ -701,7 +807,7 @@
           </p>
         </div>
         <div
-          class="flex flex-col p-[15px] rounded-[10px] shadow-[0_0px_5px_#666666]"
+          class="md:flex hidden flex-col p-[15px] rounded-[10px] shadow-[0_0px_5px_#666666]"
         >
           <img src="images/targ2.png" class="w-[60px] h-[60px]" />
 
@@ -719,7 +825,7 @@
           </p>
         </div>
         <div
-          class="flex flex-col p-[15px] rounded-[10px] shadow-[0_0px_5px_#666666]"
+          class="md:flex hidden flex-col p-[15px] rounded-[10px] shadow-[0_0px_5px_#666666]"
         >
           <img src="images/targ3.png" class="w-[60px] h-[60px]" />
 
@@ -737,7 +843,7 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-row gap-[20px] pt-[20px]">
+      <div class="md:flex hidden flex-row gap-[20px] pt-[20px]">
         <div
           class="flex flex-col p-[15px] rounded-[10px] shadow-[0_0px_5px_#666666]"
         >
@@ -817,11 +923,13 @@
     <!--Account Section start-->
 
     <div
-      class="flex flex-row bg-[#1B4932] gap-[140px] justify-end items-center"
+      class="flex md:flex-row flex-col bg-[#1B4932] gap-[15px] md:gap-[140px] justify-end items-center pb-[38px] md:p-0"
     >
-      <div class="flex flex-col items-start">
+      <div
+        class="flex flex-col items-start md:px-0 px-[16px] md:order-1 order-2"
+      >
         <h1
-          class="text-[40px] leading-[50px] text-white font-semibold w-[477px]"
+          class="md:text-[40px] md:leading-[50px] text-[26px] leading-[34px] text-white font-semibold md:w-[477px] pr-[19px] md:p-0"
         >
           Exclusive perks for landscape professionals with our Pro accounts
         </h1>
@@ -829,7 +937,9 @@
           Why get a Pro account?
         </p>
 
-        <div class="flex flex-row pt-[32px] gap-[60px]">
+        <div
+          class="flex md:flex-row flex-col pt-[32px] md:gap-[60px] gap-[16px]"
+        >
           <div class="flex flex-row gap-[6px]">
             <img src="images/tick2.png" class="w-[20px] h-[20px]" />
             <p class="text-[14px] leading-[24px] text-white font">
@@ -845,7 +955,9 @@
           </div>
         </div>
 
-        <div class="flex flex-row pt-[20px] gap-[60px]">
+        <div
+          class="flex md:flex-row flex-col md:pt-[32px] pt-[16px] md:gap-[60px] gap-[16px]"
+        >
           <div class="flex flex-row gap-[6px]">
             <img src="images/tick2.png" class="w-[20px] h-[20px]" />
             <p class="text-[14px] leading-[24px] text-white font">
@@ -862,7 +974,7 @@
         </div>
 
         <button
-          class="flex justify-center items-center bg-[#DA7924] py-[13px] px-[28px] rounded-[10px] mt-[50px]"
+          class="flex justify-center items-center bg-[#DA7924] py-[13px] px-[28px] w-full md:w-auto rounded-[10px] mt-[50px]"
         >
           <a>
             <p class="text-[16px] bold leading-[24px] text-white">
@@ -871,14 +983,19 @@
           </a>
         </button>
       </div>
-      <img src="images/acc.png" class="w-[710px] h-[547px]" />
+      <img
+        src="images/acc.png"
+        class="md:w-[710px] md:h-[547px] w-full h-[290px] md:order-2 order-1"
+      />
     </div>
     <!--Account Section end-->
 
     <!--BLog Section start-->
 
-    <div class="flex flex-col items-center py-[90px]">
-      <h1 class="text-[40px] leading-[50px] text-black font-semibold">
+    <div class="flex flex-col items-center py-[90px] md:px-0 px-[16px]">
+      <h1
+        class="font-semibold md:text-[40px] md:leading-[50px] text-[26px] leading-[34px] text-black-900 text-center px-[19px] md:px-0"
+      >
         Blogs to inspire your outside space
       </h1>
       <p
@@ -886,29 +1003,32 @@
       >
         Choose the tile that's most relevant to you
       </p>
-      <div class="flex flex-row pt-[50px] gap-[20px]">
+      <div class="flex md:flex-row flex-col pt-[50px] gap-[20px]">
         <div class="flex flex-col">
-          <img src="images/b1.png" class="w-[391px] h-[240px]" />
+          <img
+            src="images/b1.png"
+            class="md:w-[391px] px:h-[240px] w-full h-[200px]"
+          />
 
           <div
             class="border border-[#FFFFFF] shadow-sm pb-[20px] rounded-bl-[10px] rounded-br-[10px]"
           >
             <p
-              class="text-[14px] leading-[24px] pt-[20px] pl-[15px] pt-[20px] text-[#666666]"
+              class="text-[14px] leading-[22px] md:leading-[24px] pt-[20px] pl-[15px] pt-[20px] text-[#666666]"
             >
               15 minutes
             </p>
             <h1
-              class="text-[30px] leading-[38px] semibold text-black-900 pl-[15px] pt-[10px]"
+              class="md:text-[30px] md:leading-[38px] text-[16px] leading-[24px] semibold text-black-900 pl-[15px] pt-[10px]"
             >
               Gardening in Raised Be..
             </h1>
 
             <button
-              class="flex flex-row w-full justify-between pr-[15px] pl-[20px] items-center pt-[60px]"
+              class="flex flex-row w-full justify-between pr-[15px] pl-[20px] items-center pt-[20px] md:pt-[60px]"
             >
               <h2
-                class="text-[16px] leading-[24px] font-semibold text-[#DA7924]"
+                class="md:text-[16px] md:leading-[24px] text-[14px] leading-[20px] font-semibold text-[#DA7924]"
               >
                 Read Article
               </h2>
@@ -918,27 +1038,30 @@
         </div>
 
         <div class="flex flex-col">
-          <img src="images/b2.png" class="w-[391px] h-[240px]" />
+          <img
+            src="images/b2.png"
+            class="md:w-[391px] px:h-[240px] w-full h-[200px]"
+          />
 
           <div
             class="border border-[#FFFFFF] shadow-sm pb-[20px] rounded-bl-[10px] rounded-br-[10px]"
           >
             <p
-              class="text-[14px] leading-[24px] pt-[20px] pl-[15px] pt-[20px] text-[#666666]"
+              class="text-[14px] leading-[22px] md:leading-[24px] pt-[20px] pl-[15px] pt-[20px] text-[#666666]"
             >
               15 minutes
             </p>
             <h1
-              class="text-[30px] leading-[38px] semibold text-black-900 pl-[15px] pt-[10px]"
+              class="md:text-[30px] md:leading-[38px] text-[16px] leading-[24px] semibold text-black-900 pl-[15px] pt-[10px]"
             >
               Gardening in Raised Be..
             </h1>
 
             <button
-              class="flex flex-row w-full justify-between pr-[15px] pl-[20px] items-center pt-[60px]"
+              class="flex flex-row w-full justify-between pr-[15px] pl-[20px] items-center pt-[20px] md:pt-[60px]"
             >
               <h2
-                class="text-[16px] leading-[24px] font-semibold text-[#DA7924]"
+                class="md:text-[16px] md:leading-[24px] text-[14px] leading-[20px] font-semibold text-[#DA7924]"
               >
                 Read Article
               </h2>
@@ -948,27 +1071,30 @@
         </div>
 
         <div class="flex flex-col">
-          <img src="images/b3.png" class="w-[391px] h-[240px]" />
+          <img
+            src="images/b3.png"
+            class="md:w-[391px] px:h-[240px] w-full h-[200px]"
+          />
 
           <div
             class="border border-[#FFFFFF] shadow-sm pb-[20px] rounded-bl-[10px] rounded-br-[10px]"
           >
             <p
-              class="text-[14px] leading-[24px] pt-[20px] pl-[15px] pt-[20px] text-[#666666]"
+              class="text-[14px] leading-[22px] md:leading-[24px] pt-[20px] pl-[15px] pt-[20px] text-[#666666]"
             >
               15 minutes
             </p>
             <h1
-              class="text-[30px] leading-[38px] semibold text-black-900 pl-[15px] pt-[10px]"
+              class="md:text-[30px] md:leading-[38px] text-[16px] leading-[24px] semibold text-black-900 pl-[15px] pt-[10px]"
             >
               Gardening in Raised Be..
             </h1>
 
             <button
-              class="flex flex-row w-full justify-between pr-[15px] pl-[20px] items-center pt-[60px]"
+              class="flex flex-row w-full justify-between pr-[15px] pl-[20px] items-center pt-[20px] md:pt-[60px]"
             >
               <h2
-                class="text-[16px] leading-[24px] font-semibold text-[#DA7924]"
+                class="md:text-[16px] md:leading-[24px] text-[14px] leading-[20px] font-semibold text-[#DA7924]"
               >
                 Read Article
               </h2>
@@ -982,30 +1108,41 @@
 
     <!--Accordion Section start-->
 
-    <div class="flex flex-col pt-[90px] pb-[138px] items-center bg-[#FFF6F5]">
-      <h1 class="text-[40px] leading-[50px] text-black font-semibold">
+    <div
+      class="flex flex-col pt-[40px] md:pt-[90px] pb-[40px] md:pb-[138px] items-center bg-[#FFF6F5]"
+    >
+      <h1
+        class="font-semibold md:text-[40px] md:leading-[50px] text-[26px] leading-[34px] text-black-900 text-center px-[19px] md:px-0"
+      >
         Lorem ipsum dolor sit conse.
       </h1>
       <p
-        class="text-[16px] text-center leading-[24px] text-[#666666] font pt-[15px] w-[606px]"
+        class="md:text-[16px] text-[14px] text-center md:leading-[24px] leading-[22px] text-[#666666] font pt-[15px] px-[19px] md:px-0"
       >
         We manufacture a full range of garden edging products that are simple to
         install, attractive, extremely hard wearing and affordably priced.
       </p>
 
       <div
-        class="flex flex-row py-[20px] rounded-t-[15px] border-[#FFFFFF] shadow-sm w-[804px] h-[70px] justify-between items-center px-[20px] mt-[50px]"
+        class="flex flex-row py-[20px] rounded-t-[15px] border-[#FFFFFF] shadow-sm md:w-[804px] h-[70px] justify-between items-center px-[20px] mt-[50px]"
       >
-        <h1 class="text-[18px] leading-[26px] text-black">
+        <h1
+          class="md:text-[18px] md:leading-[26px] text-[16px] leading-[24px] text-black pr-[19px]"
+        >
           Weathered steel garden edging: practical, beautiful and durable
         </h1>
-        <img src="images/minus.png" class="w-[30px] h-[30px]" />
+        <img
+          src="images/minus.png"
+          class="md:w-[30px] md:h-[30px] w-[24px] h-[24px]"
+        />
       </div>
 
       <div
-        class="w-[804px] h-[290px] py-[13px] px-[20px] shadow-sm rounded-b-[15px]"
+        class="md:w-[804px] md:h-[290px] py-[13px] md:px-[20px] px-[15px] shadow-sm rounded-b-[15px]"
       >
-        <p class="text-[14px] leading-[24px] text-[#666666]">
+        <p
+          class="text-[14px] md:leading-[24px] leading-[22px] text-[#666666] pr-[19px] md:p-0"
+        >
           Many people use DIY steel garden edging to make their backyards and
           gardens easier to maintain. Quality edging will stop grass from your
           lawn from creeping into adjacent areas where you don’t want it. It
@@ -1029,43 +1166,53 @@
         </p>
       </div>
       <div
-        class="flex flex-row py-[20px] rounded-[15px] border-[#FFFFFF] shadow-sm w-[804px] h-[70px] justify-between items-center px-[20px] mt-[10px]"
+        class="flex flex-row py-[20px] rounded-[15px] border-[#FFFFFF] shadow-sm md:w-[804px] w-full h-[48px] md:h-[70px] justify-between items-center px-[20px] mt-[10px]"
       >
-        <h1 class="text-[18px] leading-[26px] text-black">
+        <h1
+          class="md:text-[18px] md:leading-[26px] text-[14px] leading-[22px] text-black"
+        >
           Galvanised steel garden edging
         </h1>
         <img src="images/PlusCircle.png" class="w-[30px] h-[30px]" />
       </div>
 
       <div
-        class="flex flex-row py-[20px] rounded-[15px] border-[#FFFFFF] shadow-sm w-[804px] h-[70px] justify-between items-center px-[20px] mt-[10px]"
+        class="flex flex-row py-[20px] rounded-[15px] border-[#FFFFFF] shadow-sm md:w-[804px] w-full h-[48px] md:h-[70px] justify-between items-center px-[20px] mt-[10px]"
       >
-        <h1 class="text-[18px] leading-[26px] text-black">
+        <h1
+          class="md:text-[18px] md:leading-[26px] text-[14px] leading-[22px] text-black"
+        >
           Above ground or in-ground garden edging: which is right for your
           needs?
         </h1>
         <img src="images/PlusCircle.png" class="w-[30px] h-[30px]" />
       </div>
       <div
-        class="flex flex-row py-[20px] rounded-[15px] border-[#FFFFFF] shadow-sm w-[804px] h-[70px] justify-between items-center px-[20px] mt-[10px]"
+        class="flex flex-row py-[20px] rounded-[15px] border-[#FFFFFF] shadow-sm md:w-[804px] w-full h-[48px] md:h-[70px] justify-between items-center px-[20px] mt-[10px]"
       >
-        <h1 class="text-[18px] leading-[26px] text-black">
+        <h1
+          class="md:text-[18px] md:leading-[26px] text-[14px] leading-[22px] text-black"
+        >
           Flexible, rigid or zero-flex garden edging?
         </h1>
         <img src="images/PlusCircle.png" class="w-[30px] h-[30px]" />
       </div>
       <div
-        class="flex flex-row py-[20px] rounded-[15px] border-[#FFFFFF] shadow-sm w-[804px] h-[70px] justify-between items-center px-[20px] mt-[10px]"
+        class="flex flex-row py-[20px] rounded-[15px] border-[#FFFFFF] shadow-sm md:w-[804px] w-full h-[48px] md:h-[70px] justify-between items-center px-[20px] mt-[10px]"
       >
-        <h1 class="text-[18px] leading-[26px] text-black">
+        <h1
+          class="md:text-[18px] md:leading-[26px] text-[14px] leading-[22px] text-black"
+        >
           Freestanding garden beds & garden features
         </h1>
         <img src="images/PlusCircle.png" class="w-[30px] h-[30px]" />
       </div>
       <div
-        class="flex flex-row py-[20px] rounded-[15px] border-[#FFFFFF] shadow-sm w-[804px] h-[70px] justify-between items-center px-[20px] mt-[10px]"
+        class="flex flex-row py-[20px] rounded-[15px] border-[#FFFFFF] shadow-sm md:w-[804px] w-full h-[48px] md:h-[70px] justify-between items-center px-[20px] mt-[10px]"
       >
-        <h1 class="text-[18px] leading-[26px] text-black">
+        <h1
+          class="md:text-[18px] md:leading-[26px] text-[14px] leading-[22px] text-black"
+        >
           Inexpensive and Simple to Install
         </h1>
         <img src="images/PlusCircle.png" class="w-[30px] h-[30px]" />
@@ -1075,7 +1222,7 @@
 
     <!--gallery Section start-->
 
-    <div class="flex flex-col py-[60px] items-center">
+    <div class="md:flex hidden flex-col py-[60px] items-center">
       <h1 class="text-[40px] leading-[50px] text-black font-semibold">
         Gallery
       </h1>
@@ -1095,14 +1242,21 @@
     <!--gallery Section end-->
 
     <!--Price Section Start-->
-    <div class="flex flex-col pt-[80px] pb-[90px] bg-[#DA7924] items-center">
-      <h1 class="text-[40px] leading-[50px] font-semibold text-white">
+    <div
+      class="flex flex-col pt-[80px] pb-[90px] bg-[#DA7924] md:items-center items-start md:px-0 px-[16px]"
+    >
+      <h1
+        class="md:text-[40px] md:leading-[50px] text-[26px] leading-[34px] font-semibold text-white md:px-0 pr-[16px]"
+      >
         What’s included in the price list
       </h1>
 
-      <img src="images/price1.png" class="w-[600px] h-[123px]" />
+      <img
+        src="images/price1.png"
+        class="w-[600px] h-[123px] md:block hidden"
+      />
 
-      <div class="flex flex-row items-center">
+      <div class="md:flex hidden flex-row items-center">
         <div
           class="w-[273px] h-[283px] bg-cover bg-center bg-[url('images/pb1.png')] bg-no-repeat justify-center flex items-end pb-[25px]"
         >
@@ -1128,8 +1282,31 @@
         </div>
       </div>
 
+      <div class="flex md:hidden flex-col w-full pt-[20px] gap-[15px]">
+        <div class="flex flex-row gap-[6px]">
+          <img src="images/tick2.png" class="w-[20px] h-[20px]" />
+          <p class="text-[14px] leading-[22px] text-white font">
+            Our AU retail price list
+          </p>
+        </div>
+
+        <div class="flex flex-row gap-[6px]">
+          <img src="images/tick2.png" class="w-[20px] h-[20px]" />
+          <p class="text-[14px] leading-[22px] text-white font">
+            Our AU retail brochure
+          </p>
+        </div>
+
+        <div class="flex flex-row gap-[6px]">
+          <img src="images/tick2.png" class="w-[20px] h-[20px]" />
+          <p class="text-[14px] leading-[22px] text-white font">
+            Details of your nearest stockists
+          </p>
+        </div>
+      </div>
+
       <button
-        class="flex justify-center items-center bg-white py-[18px] px-[50px] rounded-[10px] mt-[75px]"
+        class="flex justify-center items-center bg-white py-[18px] px-[50px] rounded-[10px] md:mt-[75px] mt-[20px]"
       >
         <a>
           <p class="text-[14px] bold leading-[22px] text-black bold">
@@ -1138,23 +1315,161 @@
         </a>
       </button>
     </div>
-    <!--gallery Section End-->
-
+    <!--price Section End-->
 
     <!--Footer Section start-->
 
-    <div>
-      
+    <div
+      class="flex flex-col bg-[#1B4932] pt-[40px] md:pt-[90px] pb-[30px] items-center md:px-0 px-[16px]"
+    >
+      <div class="flex md:flex-row flex-col md:items-start items-center">
+        <div class="flex flex-col md:items-start items-center">
+          <img src="images/logo.png" class="w-[150px] h-[30px]" />
+
+          <div class="flex flex-row md:gap-[19px] gap-[10px] pt-[25px]">
+            <img
+              src="images/fb.png"
+              class="md:w-[40px] md:h-[40px] w-[32px] h-[32px]"
+            />
+            <img
+              src="images/twitter.png"
+              class="md:w-[40px] md:h-[40px] w-[32px] h-[32px]"
+            />
+            <img
+              src="images/insta.png"
+              class="md:w-[40px] md:h-[40px] w-[32px] h-[32px]"
+            />
+            <img
+              src="images/youtube.png"
+              class="md:w-[40px] md:h-[40px] w-[32px] h-[32px]"
+            />
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col md:pl-[178px] md:items-start items-center md:pt-0 pt-[20px]"
+        >
+          <p class="text-[16px] leading-[24px] text-[#FFFFFF99]">Products</p>
+
+          <p class="text-[16px] leading-[24px] text-white pt-[20px]">
+            Garden Edging
+          </p>
+
+          <ul
+            class="text-[16px] leading-[24px] list-inside text-white gap-[10px] pt-[10px] flex flex-col list-disc pl-[13px]"
+          >
+            <li>Flex</li>
+            <li>Rigid</li>
+            <li>Zero-Flex</li>
+          </ul>
+
+          <p class="text-[16px] leading-[24px] text-white pt-[10px]">
+            Raised Garden Beds
+          </p>
+
+          <ul
+            class="text-[16px] leading-[24px] list-inside text-white gap-[10px] pt-[10px] flex flex-col list-disc pl-[13px]"
+          >
+            <li>Flex</li>
+            <li>Rigid</li>
+            <li>Zero-Flex</li>
+          </ul>
+          <p class="text-[16px] leading-[24px] text-white pt-[10px]">
+            Planter Boxes
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col md:pl-[81px] md:items-start items-center md:pt-0 pt-[20px]"
+        >
+          <p class="text-[16px] leading-[24px] text-[#FFFFFF99]">Customers</p>
+          <p class="text-[16px] leading-[24px] text-white pt-[20px]">
+            Home Gardeners
+          </p>
+          <p class="text-[16px] leading-[24px] text-white pt-[10px]">
+            Pro Landscapers
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col md:pl-[90px] md:items-start items-center md:pt-0 pt-[20px]"
+        >
+          <p class="text-[16px] leading-[24px] text-[#FFFFFF99]">Resources</p>
+          <p class="text-[16px] leading-[24px] text-white pt-[20px]">
+            Contact Us
+          </p>
+          <p class="text-[16px] leading-[24px] text-white pt-[10px]">
+            Find Stockists
+          </p>
+          <p class="text-[16px] leading-[24px] text-white pt-[10px]">
+            Request Price List
+          </p>
+          <p class="text-[16px] leading-[24px] text-white pt-[10px]">
+            Product Catalogue
+          </p>
+          <p class="text-[16px] leading-[24px] text-white pt-[10px]">
+            Bracing Solutions
+          </p>
+          <p class="text-[16px] leading-[24px] text-white pt-[10px]">
+            Longevity Guide
+          </p>
+          <p class="text-[16px] leading-[24px] text-white pt-[10px]">
+            Product Care Guide
+          </p>
+          <p class="text-[16px] leading-[24px] text-white pt-[10px]">
+            Installation Videos
+          </p>
+          <p class="text-[16px] leading-[24px] text-white pt-[10px]">
+            News + Articles
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col md:pl-[81px] md:items-start items-center md:pt-0 pt-[20px]"
+        >
+          <p class="text-[16px] leading-[24px] text-[#FFFFFF99]">
+            Why Straightcurve?
+          </p>
+          <p class="text-[16px] leading-[24px] text-white pt-[20px]">
+            Why DIYers Love us
+          </p>
+          <p class="text-[16px] leading-[24px] text-white pt-[10px]">
+            Why Pro's Love us
+          </p>
+          <p class="text-[16px] leading-[24px] text-white pt-[10px]">
+            Why Designers Love us
+          </p>
+        </div>
+      </div>
+
+      <hr class="border-[#FFFFFF1A] w-full h-[1px] mt-[90px]" />
+
+      <div
+        class="md:w-[1207px] flex md:flex-row flex-col gap-[20px] md:gap-0 mx-auto pt-[30px] items-center justify-between"
+      >
+        <p
+          class="md:text-[16px] md:text-start text-center md:leading-[24px] text-[12px] leading-[20px] text-[#FFFFFF99] md:order-1 order-2"
+        >
+          Straightcurve © 2023 All Rights Reserved | All transactions processed
+          in Australian Dollars (AUD$)
+        </p>
+
+        <ul
+          class="flex flex-row text-[16px] leading-[24px] text-[#FFFFFF99] gap-[12px] items-center md:order-2 order-1"
+        >
+          <li
+            class="md:text-[14px] md:leading-[24px] text-[12px] leading-[20px]"
+          >
+            Privacy Policy
+          </li>
+          <img src="images/dot.png" class="w-[10px] h-[10px]" />
+          <p
+            class="pl-[7px] md:text-[14px] md:leading-[24px] text-[12px] leading-[20px]"
+          >
+            Terms & Conditions
+          </p>
+        </ul>
+      </div>
     </div>
-
-
-
-
-
-
-
-
-
-
   </body>
 </html>
